@@ -250,7 +250,7 @@ operator-container:
 	docker build --no-cache -t $(OPERATOR_IMAGE) -f $(CURPATH)/Dockerfile .
 
 bundle:
-	./hack/sync_bundle
+	./hack/sync_bundle --operator=$(OPERATOR_IMAGE) --diskmaker=$(DISKMAKER_IMAGE) --bundle=$(REGISTRY)local-storage-bundle:$(VERSION) --index=$(REGISTRY)local-storage-index:$(VERSION)
 
 .PHONY: operator-container
 
