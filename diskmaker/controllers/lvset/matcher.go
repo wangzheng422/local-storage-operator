@@ -43,10 +43,10 @@ var FilterMap = map[string]func(internal.BlockDevice, *localv1alpha1.DeviceInclu
 		return !readOnly, err
 	},
 
-	notRemovable: func(dev internal.BlockDevice, spec *localv1alpha1.DeviceInclusionSpec) (bool, error) {
-		removable, err := dev.GetRemovable()
-		return !removable, err
-	},
+	// notRemovable: func(dev internal.BlockDevice, spec *localv1alpha1.DeviceInclusionSpec) (bool, error) {
+	// 	removable, err := dev.GetRemovable()
+	// 	return !removable, err
+	// },
 
 	notSuspended: func(dev internal.BlockDevice, spec *localv1alpha1.DeviceInclusionSpec) (bool, error) {
 		matched := dev.State != internal.StateSuspended
