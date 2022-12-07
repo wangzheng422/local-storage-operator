@@ -1,19 +1,19 @@
 # RHEL repos
 [rhel-8-baseos]
-baseurl=http://REPO_IP/dnf/rhel-8-for-x86_64-baseos-eus-rpms
+baseurl=http://REPO_IP/rhel-8-for-x86_64-baseos-eus-rpms
 
 [rhel-8-appstream]
-baseurl=http://REPO_IP/dnf/rhel-8-for-x86_64-appstream-eus-rpms
+baseurl=http://REPO_IP/rhel-8-for-x86_64-appstream-eus-rpms
 
 [rhel-8-fast-datapath]
-baseurl=http://REPO_IP/dnf/fast-datapath-for-rhel-8-x86_64-rpms
+baseurl=http://REPO_IP/fast-datapath-for-rhel-8-x86_64-rpms
 
 [rhel-8-advanced-virt]
-baseurl=http://REPO_IP/dnf/advanced-virt-for-rhel-8-x86_64-eus-rpms
+baseurl=http://REPO_IP/advanced-virt-for-rhel-8-x86_64-eus-rpms
 
 [rhel-8-nfv]
-baseurl=http://REPO_IP/dnf/rhel-8-for-x86_64-nfv-tus-rpms
+baseurl=http://REPO_IP/rhel-8-for-x86_64-nfv-tus-rpms
 
 [rhel-8-server-ose]
-baseurl=http://REPO_IP/dnf/rhel-8-server-ose
+baseurl=http://REPO_IP/rhel-8-server-ose
 
